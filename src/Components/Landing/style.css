@@ -37,8 +37,21 @@
 }
 
 .landing > .landingContent {
-  font-size: 22px;
+  font-size: 60px;
   width: 50%;
+}
+
+.landing > .landingContent > p{
+    font-size: 40px;
+}
+
+.landing > .landingContent > img{
+    width: 100%;
+    opacity: 0.75;
+}
+.landing > .landingContent > p > a{
+    text-decoration: none;
+    color: #000;
 }
 
 @media (max-width: 1366px) {
@@ -90,6 +103,8 @@
   }
 }
 
+
+
 @media (max-width: 768px) {
   .landing {
     flex-direction: column;
@@ -103,6 +118,11 @@
     width: 100%;
     font-size: 28px;
   }
+
+  .landing > .landingContent > p{
+    font-size: 28px;
+}
+
   .landing > .landingMiniGallery > img:first-child {
     max-width: 35vw;
   }
@@ -137,7 +157,7 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 415px) {
   .landing {
     padding: 30px;
   }
