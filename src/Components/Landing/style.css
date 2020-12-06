@@ -18,8 +18,8 @@
   -webkit-box-shadow: -1px 2px 36px -20px rgba(255, 189, 243, 1);
   -moz-box-shadow: -1px 2px 36px -20px rgba(255, 189, 243, 1);
   box-shadow: -1px 2px 36px -20px rgba(255, 189, 243, 1);
-  border-bottom: 8px solid #b5d0c2;
-  border-right: 8px solid #b5d0c2;
+  border-bottom: 8px solid rgba(255, 61, 103, 0.5);
+  border-right: 8px solid rgba(255, 61, 103, 0.5);
 }
 .landing > .landingMiniGallery > img:nth-child(2) {
   max-width: 15vw;
@@ -37,20 +37,21 @@
 }
 
 .landing > .landingContent {
-  font-size: 60px;
+  font-size: 55px;
   width: 50%;
+  /* background: rgba(130, 204, 221,0.1); */
+  padding: 20px;
+  line-height: 1.2;
 }
 
 .landing > .landingContent > p {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .landing > .landingContent > img {
   width: 100%;
-  border-radius: 18px;
-  background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 12px 12px 24px rgba(255, 118, 117, 0.3);
 }
+
 .landing > .landingContent > p > a {
   text-decoration: none;
   color: #000;
@@ -125,6 +126,10 @@
   }
   .landing > .landingContent {
     width: 38%;
+    padding: 10px;
+  }
+  .landing > .landingContent > img {
+    width: 95%;
   }
   .landing > .landingMiniGallery > img:first-child {
     max-width: 25vw;
@@ -149,11 +154,11 @@
   .landing > .landingContent {
     margin-top: 65vw;
     width: 100%;
-    font-size: 28px;
+    font-size: 35px;
   }
 
   .landing > .landingContent > p {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .landing > .landingMiniGallery > img:first-child {
@@ -195,10 +200,10 @@
     padding: 30px;
   }
   .landing > .landingMiniGallery {
-    margin: 0;
+    margin: 10px 0 0 0;
   }
   .landing > .landingContent {
-    margin-top: 80vw;
+    margin-top: 85vw;
   }
   .landing > .landingMiniGallery > img:first-child {
     max-width: 42vw;
@@ -237,7 +242,7 @@
   }
 }
 
-@media (max-width: 321px){
+@media (max-width: 321px) {
   .landing {
     padding: 20px;
   }

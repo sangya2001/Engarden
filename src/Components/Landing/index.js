@@ -2,10 +2,10 @@ import React from "react";
 import "./style.css";
 
 // images
-import LandingCard from "../../Assets/Landing.jpg";
-import LandingCard1 from "../../Assets/Landing1.jpg";
-import LandingCard2 from "../../Assets/Landing2.jpg";
-import LandingCard3 from "../../Assets/Landing3.jpg";
+import LandingCard from "../../Assets/Landing.webp";
+import LandingCard1 from "../../Assets/Landing1.webp";
+import LandingCard2 from "../../Assets/Landing2.webp";
+import LandingCard3 from "../../Assets/Landing3.webp";
 
 // material components
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
@@ -38,9 +38,11 @@ const Landing = () => {
         </span>
         out there.
         <p>
-          <Link to="/shop">Shop now <ArrowForwardIcon /></Link>
+          <Link to="/shop">
+            Shop now <ArrowForwardIcon />
+          </Link>
         </p>
-        <img src={LandingCard3} alt="Landig Content "/>
+        <img src={LandingCard3} alt="Landig Content " />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/Navbar';
 import Landing from "../../Components/Landing"
 import "./style.css"
+import Intro from '../../Components/Intro';
 
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
             {/* homebody */}
             <div className="homeBody">
                 <Landing/>
+                <hr/>
+                {/* short intro */}
+                <Intro/>
             </div>
         </div>
     );
