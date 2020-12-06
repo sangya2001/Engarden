@@ -15,21 +15,13 @@ const Landing = () => {
   return (
     <div className="landing">
       <div className="landingMiniGallery">
-        <img
-          className="landingMiniGalleryCard"
-          src={LandingCard}
-          alt="Landing Card"
-        />
-        <img
-          className="landingMiniGalleryCard"
-          src={LandingCard1}
-          alt="Landing1 Card"
-        />
-        <img
-          className="landingMiniGalleryCard"
-          src={LandingCard2}
-          alt="Landing2 Card"
-        />
+        <div className="left">
+            <img src={LandingCard} alt="Landing Card Succulents"/>
+        </div>
+        <div className="right">
+        <img src={LandingCard2} alt="Landing Card"/>
+        <img src={LandingCard1} alt="Landing Card"/>
+        </div>
       </div>
       <div className="landingContent">
         For the{" "}
