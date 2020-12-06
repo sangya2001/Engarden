@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-import Product from "../../Assets/Featured.png";
-import Product1 from "../../Assets/Featured1.png";
+import Product from "../../Assets/Featured.webp";
+import Product1 from "../../Assets/Featured1.webp";
 import { Button } from "@material-ui/core";
 
 const Intro = () => {
@@ -10,7 +10,7 @@ const Intro = () => {
     <div className="intro">
       <h1>
         <span style={{ borderBottom: "5px solid #FF7675" }}>Featured</span>{" "}
-        Product
+        Products
       </h1>
       <div className="featuredProduct">
         <div className="product product1">

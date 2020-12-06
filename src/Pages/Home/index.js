@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar';
 import Landing from "../../Components/Landing"
 import "./style.css"
 import Intro from '../../Components/Intro';
+import LatestProduct from '../../Components/LatestProduct';
 
 const Home = () => {
     return (
@@ -13,8 +14,11 @@ const Home = () => {
             <div className="homeBody">
                 <Landing/>
                 <hr/>
-                {/* short intro */}
+                {/* This is featured product */}
                 <Intro/>
+
+                {/* latest Product */}
+                <LatestProduct/>
             </div>
         </div>
     );
