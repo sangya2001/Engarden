@@ -34,8 +34,8 @@ const Landing = () => {
       <div className="landingContent">
         For the{" "}
         <span style={{ color: "#ff7675", fontWeight: "500" }}>
-          True Plant Lovers
-        </span>{" "}
+          True Plant Lovers&nbsp;
+        </span>
         out there.
         <p>
           <Link to="/shop">Shop now <ArrowForwardIcon /></Link>

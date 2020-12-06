@@ -41,17 +41,19 @@
   width: 50%;
 }
 
-.landing > .landingContent > p{
-    font-size: 40px;
+.landing > .landingContent > p {
+  font-size: 40px;
 }
 
-.landing > .landingContent > img{
-    width: 100%;
-    opacity: 0.75;
+.landing > .landingContent > img {
+  width: 100%;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 12px 12px 24px rgba(255, 118, 117, 0.3);
 }
-.landing > .landingContent > p > a{
-    text-decoration: none;
-    color: #000;
+.landing > .landingContent > p > a {
+  text-decoration: none;
+  color: #000;
 }
 
 @media (max-width: 1366px) {
@@ -84,6 +86,39 @@
     max-width: 33vw;
   }
 }
+
+@media (width: 1024px) {
+  .landing {
+    flex-direction: column;
+  }
+  .landing > .landingMiniGallery {
+    width: 100%;
+    margin-left: 4vw;
+  }
+  .landing > .landingContent {
+    margin-top: 75vw;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .landing > .landingContent > p {
+    font-size: 50px;
+  }
+
+  .landing > .landingMiniGallery > img:first-child {
+    max-width: 40vw;
+  }
+  .landing > .landingMiniGallery > img:nth-child(2) {
+    left: 470px;
+    max-width: 30vw;
+  }
+  .landing > .landingMiniGallery > img:nth-child(3) {
+    max-width: 50vw;
+    top: 380px;
+    left: 250px;
+  }
+}
+
 @media (max-width: 992px) {
   .landing > .landingMiniGallery {
     width: 62%;
@@ -103,8 +138,6 @@
   }
 }
 
-
-
 @media (max-width: 768px) {
   .landing {
     flex-direction: column;
@@ -119,9 +152,9 @@
     font-size: 28px;
   }
 
-  .landing > .landingContent > p{
+  .landing > .landingContent > p {
     font-size: 28px;
-}
+  }
 
   .landing > .landingMiniGallery > img:first-child {
     max-width: 35vw;
@@ -201,5 +234,29 @@
     max-width: 55vw;
     top: 150px;
     left: 120px;
+  }
+}
+
+@media (max-width: 321px){
+  .landing {
+    padding: 20px;
+  }
+  .landing > .landingMiniGallery {
+    margin: 0;
+  }
+  .landing > .landingContent {
+    margin-top: 85vw;
+  }
+  .landing > .landingMiniGallery > img:first-child {
+    max-width: 45vw;
+  }
+  .landing > .landingMiniGallery > img:nth-child(2) {
+    left: 160px;
+    max-width: 35vw;
+  }
+  .landing > .landingMiniGallery > img:nth-child(3) {
+    max-width: 55vw;
+    top: 120px;
+    left: 100px;
   }
 }
