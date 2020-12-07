@@ -1,0 +1,53 @@
+.footer {
+  margin-top: 40px;
+  padding: 30px 80px;
+  background: rgba(75, 207, 250, 0.2);
+}
+
+.footer > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer > .top > .message {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.footer > .top > .socialMedia {
+  display: flex;
+}
+
+.footer > .top > .socialMedia > a {
+  color: #000;
+}
+
+@media (max-width: 1366px) {
+  .footer > .top {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .footer > .top > .message {
+    margin-bottom: 20px;
+  }
+
+  .footer > .top > .socialMedia > a > .MuiSvgIcon-root {
+    font-size: 35px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer {
+    padding: 30px;
+  }
+}

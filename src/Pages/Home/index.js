@@ -5,6 +5,7 @@ import "./style.css"
 import Intro from '../../Components/Intro';
 import LatestProduct from '../../Components/LatestProduct';
 import Gallery from "../../Components/Gallery";
+import Footer from '../../Components/Footer';
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
                 <Gallery/>
 
                 {/* footer */}
+                <Footer/>
             </div>
         </div>
     );
