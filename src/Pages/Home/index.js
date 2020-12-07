@@ -1,11 +1,13 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar';
-import Landing from "../../Components/Landing"
+import loadable from '@loadable/component'
 import "./style.css"
-import Intro from '../../Components/Intro';
-import LatestProduct from '../../Components/LatestProduct';
-import Gallery from "../../Components/Gallery";
-import Footer from '../../Components/Footer';
+
+const Navbar = loadable(() => import('../../Components/Navbar'))
+const Landing = loadable(() => import('../../Components/Landing'))
+const Intro = loadable(() => import('../../Components/Intro'))
+const LatestProduct = loadable(() => import('../../Components/LatestProduct'))
+const Gallery = loadable(() => import('../../Components/Gallery'))
+const Footer = loadable(() => import('../../Components/Footer'))
 
 const Home = () => {
     return (

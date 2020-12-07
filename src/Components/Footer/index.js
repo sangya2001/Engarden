@@ -29,10 +29,6 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <hr />
-      <div className="bottom">
-        Copyright &copy; Engarden. All Rights Reserved. 2020-2022
-      </div>
     </div>
   );
 };

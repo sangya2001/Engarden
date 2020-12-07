@@ -1,11 +1,13 @@
 import React from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import Home from './Pages/Home';
+import loadable from '@loadable/component'
 import "./App.css"
-import Shop from './Pages/Shop';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-import Blog from './Pages/Blog';
+
+const Home = loadable(() => import('./Pages/Home'))
+const About = loadable(() => import('./Pages/About'))
+const Shop = loadable(() => import('./Pages/Shop'))
+const Contact = loadable(() => import('./Pages/Contact'))
+const Blog = loadable(() => import('./Pages/Blog'))
 
 function App() {
   return (
