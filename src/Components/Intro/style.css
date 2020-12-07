@@ -49,7 +49,7 @@
 
 @media (max-width: 577px) {
   .intro {
-    padding: 10px 30px;
+    padding: 0 30px;
   }
   .intro > .featuredProduct > .product {
     flex-direction: column;
