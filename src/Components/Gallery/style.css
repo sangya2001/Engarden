@@ -30,10 +30,12 @@
 .gallery > .galleryImages > .galleryLeft > .bottom {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;;
 }
 
 .gallery > .galleryImages > .galleryLeft > .bottom > img {
   width: 48%;
+  object-fit: fill;
 }
 
 .gallery > .galleryImages > .galleryRight > .top > h1 {
