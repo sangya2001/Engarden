@@ -2,11 +2,11 @@ import React from "react";
 import "./style.css";
 
 // imsges
-import GalleryImg from "../../Assets/Gallery.webp";
-import GalleryImg1 from "../../Assets/Gallery1.webp";
-import GalleryImg2 from "../../Assets/Gallery2.webp";
-import GalleryImg3 from "../../Assets/Gallery3.webp";
-import GalleryImg4 from "../../Assets/Gallery4.webp";
+import GalleryImg from "../../../Assets/Gallery.webp";
+import GalleryImg1 from "../../../Assets/Gallery1.webp";
+import GalleryImg2 from "../../../Assets/Gallery2.webp";
+import GalleryImg3 from "../../../Assets/Gallery3.webp";
+import GalleryImg4 from "../../../Assets/Gallery4.webp";
 
 const Gallery = () => {
   return (

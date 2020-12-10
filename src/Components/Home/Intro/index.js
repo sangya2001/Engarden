@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-import Product from "../../Assets/Featured.webp";
-import Product1 from "../../Assets/Featured1.webp";
+import Product from "../../../Assets/Featured.webp";
+import Product1 from "../../../Assets/Featured1.webp";
 import { Button } from "@material-ui/core";
 
 const Intro = () => {

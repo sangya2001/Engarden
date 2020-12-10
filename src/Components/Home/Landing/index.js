@@ -2,10 +2,10 @@ import React from "react";
 import "./style.css";
 
 // images
-import LandingCard from "../../Assets/Landing.webp";
-import LandingCard1 from "../../Assets/Landing1.webp";
-import LandingCard2 from "../../Assets/Landing2.webp";
-import LandingCard3 from "../../Assets/Landing3.webp";
+import LandingCard from "../../../Assets/Landing.webp";
+import LandingCard1 from "../../../Assets/Landing1.webp";
+import LandingCard2 from "../../../Assets/Landing2.webp";
+import LandingCard3 from "../../../Assets/Landing3.webp";
 
 // material components
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";

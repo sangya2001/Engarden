@@ -1,5 +1,6 @@
 import React from 'react';
 import loadable from '@loadable/component'
+import './style.css'
 
 const Navbar = loadable(() => import('../../Components/Navbar'))
 const Footer = loadable(() => import('../../Components/Footer'))

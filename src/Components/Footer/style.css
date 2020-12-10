@@ -12,7 +12,7 @@
 }
 
 .footer > .top > .message {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -48,6 +48,10 @@
 
 @media (max-width: 414px) {
   .footer {
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
+  }
+
+  .footer > .top > .message {
+    font-size: 35px;
   }
 }

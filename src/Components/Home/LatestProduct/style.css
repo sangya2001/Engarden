@@ -28,7 +28,7 @@
 }
 
 .latestProduct > .latestProductTypes .succulents {
-  background: url("../../Assets/Succulent.webp") no-repeat;
+  background: url("../../../Assets/Succulent.webp") no-repeat;
   border-radius: 12px;
   background-size: cover;
   height: 64vh;
@@ -71,7 +71,7 @@
   > .nonSucculents
   > .nonSucculentsTop
   .outdoorPlants {
-  background: url("../../Assets/Outdoor.webp") no-repeat;
+  background: url("../../../Assets/Outdoor.webp") no-repeat;
   background-size: cover;
   transition: all 0.7s ease-in-out;
 }
@@ -91,7 +91,7 @@
   > .nonSucculents
   > .nonSucculentsTop
   .plantPots {
-  background: url("../../Assets/Pot.webp") no-repeat;
+  background: url("../../../Assets/Pot.webp") no-repeat;
   background-size: cover;
   transition: all 0.7s ease-in-out;
 }
@@ -113,7 +113,7 @@
 
 .latestProduct > .latestProductTypes > .nonSucculents .substrates {
   margin-top: 30px;
-  background: url("../../Assets/Substrate.webp") no-repeat;
+  background: url("../../../Assets/Substrate.webp") no-repeat;
   height: 30vh;
   background-size: cover;
   transition: all 0.7s ease-in-out;
